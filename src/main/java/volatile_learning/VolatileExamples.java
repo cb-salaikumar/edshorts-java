@@ -25,7 +25,7 @@ public class VolatileExamples {
     public  static VolatileExamples getInstance(){
 
         if ( volatileExamplesInstance != null ){
-            return volatileExamplesInstance
+            return volatileExamplesInstance;
         }
 
 //        May I apply synchorinized lock like this..?
